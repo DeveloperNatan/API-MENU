@@ -1,9 +1,12 @@
 {
   "name": "site-lanche",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "22"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon API/server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +17,9 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "prisma": "^6.2.1"
+  },
+  "prisma": {
+    "schema": "./API/prisma/schema.prisma"
   }
 }
+
