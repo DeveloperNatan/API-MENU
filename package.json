@@ -6,7 +6,7 @@
     "node": "22"
   },
   "scripts": {
-    "dev": "nodemon API/server.js"
+    "dev": "node API/server.js"
   },
   "keywords": [],
   "author": "",
