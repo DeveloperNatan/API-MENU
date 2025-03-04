@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url      = "postgresql://nodedeploy_icgm_user:vKXJxu4WN3nng00KnHRYJXrygldadEIT@dpg-cun5ll8gph6c738d6erg-a.ohio-postgres.render.com/nodedeploy_icgm"
 }
 
 model menu {
